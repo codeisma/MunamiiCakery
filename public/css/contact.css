@@ -1,0 +1,26 @@
+input[type="text"],
+textarea {
+  
+  width: 94%;
+  padding: 15px;
+  border: 1px solid #cd5ba3;
+  margin-bottom: 20px;
+  opacity: 40%;
+  font-family: "Indie Flower";
+}
+
+input[type="submit"] {
+  font-family: "Indie Flower";
+  color: #27ac95;
+  padding: var(--space-big);
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .column,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}

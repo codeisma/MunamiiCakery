@@ -1,0 +1,14 @@
+
+.footer .contact-links{
+    padding-left:0;
+}
+
+.footer .contact-links li {
+    list-style: none;
+    margin-bottom: var(--space-small)
+}
+
+.footer .contact-links a{
+    padding: 4x;
+    color: black;
+}

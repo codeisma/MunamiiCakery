@@ -1,0 +1,10 @@
+:root {
+    /* Colors */
+    --color-grey: rgb(138, 130, 130);
+
+    /* Spaces */
+    --space-small: 8px;
+    --space-medium: 16px;
+    --space-big: 24px;
+    --space-extra-big: 48px;
+}

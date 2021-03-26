@@ -1,0 +1,39 @@
+/* single cupcakes */
+.cakes {
+  width: 152px;
+}
+
+.cupcakes {
+  text-align: center;
+  
+}
+
+
+/* phones will screen 2 coloms */
+
+@media (min-width: 200px) {
+  .content div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: var(--space-medium);
+    grid-row-gap: var(--space-medium);
+  }
+}
+/*  tablets*/
+@media (min-width: 550px) {
+  .content div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: var(--space-medium);
+    grid-row-gap: var(--space-medium);
+  }
+  /* computers */
+  @media (min-width: 650px) {
+    .content div {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-column-gap: var(--space-medium);
+      grid-row-gap: var(--space-medium);
+    }
+  }
+}
